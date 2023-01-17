@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="this is account page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/f98f45f35a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./Styles/style.css" />
+    <title>Account</title>
+  </head>
+  <body>
+    <header class="header">
+      <img
+        width="300px"
+        src="./Images/logo.png"
+        class="logo-imgae"
+        alt="logo of alpha fittness"
+      />
+      <nav class="head-nav">
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <ul class="head-nav-list">
+          <li><a class="nav-anchor" href="./index.html">Home</a></li>
+          <li>
+            <a class="nav-anchor" href="./Events.html">Events</a>
+          </li>
+          <li><a class="nav-anchor" href="./Schedule.html">Schedule</a></li>
+          <li><a class="nav-anchor" href="./Contact.html">Contact</a></li>
+          <li><a class="nav-anchor" href="./About.html">About</a></li>
+          <li>
+            <a class="nav-anchor nav--active" href="./Account.html">Account</a>
+          </li>
+          <li>
+            <a class="nav-anchor nav--main-focus" href="./Shop.html">Shop</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <img
+      width="100%"
+      src="./Images/hero-11.jpg"
+      id="head-image"
+      alt="picture gym equipment"
+    />
+    <section>
+      <div class="account__container">
+        <div class="account_login">
+          <div class="account__photo">
+            <h1 class="primary-heading">Account</h1>
+            <div class="profile__img-box">
+              <img class="profile" src="./Images/trainer-4.jpg" alt="" />
+            </div>
+            <p class="account-text">
+              Sign up now <br />
+              with us to enjoy our top-notch equipment and unique classes! Plus,
+              when you join today, you'll get a FREE consultation with a trainer
+              to get your journey to a healthier lifestyle started!
+            </p>
+          </div>
+          <div class="sign__up">
+            <h2 class="primary-heading sign-up">Sign Up</h2>
+            <form class="sign-up__form" action="">
+              <div class="form__elements">
+                <label class="sign-up__label" for="nameForm">Name</label><br />
+                <input
+                  class="sing-up__input"
+                  id="nameForm"
+                  type="text"
+                  placeholder="Eg. Abebe Kebede"
+                />
+                <p class="error-message name-error">sample error</p>
+              </div>
+              <div class="form__elements">
+                <label class="sign-up__label" for="emailForm">Email</label
+                ><br />
+                <input
+                  class="sing-up__input"
+                  type="email"
+                  id="emailForm"
+                  placeholder="ac@xyz.com"
+                />
+                <p class="error-message email-error">sample error</p>
+              </div>
+              <div class="form__elements">
+                <label class="sign-up__label" for="phoneForm">phone</label
+                ><br />
+                <input
+                  class="sing-up__input"
+                  type="text"
+                  id="phoneForm"
+                  value="+251"
+                />
+                <p class="error-message phone-error">sample error</p>
+              </div>
+              <div class="form__elements">
+                <label class="sign-up__label" for="password">password</label
+                ><br />
+                <input class="sing-up__input" id="password" type="password" />
+              </div>
+              <div class="form__elements">
+                <label class="sign-up__label" for="re-password"
+                  >confirm-password</label
+                ><br />
+                <input
+                  class="sing-up__input"
+                  id="re-password"
+                  type="password"
+                />
+                <p class="error-message pass-error">sample error</p>
+              </div>
+              <div class="form__elements">
+                <br />
+                <input type="checkbox" id="agree" />
+                <label for="agree">Agree to terms and Conditions?</label>
+                <p class="error-message agree-error">sample error</p>
+              </div>
+              <br />
+            </form>
+            <div class="form_btns">
+              <input
+                type="button"
+                class="form_btn form_btn-sing"
+                value="submit"
+              />
+              <p>
+                Don't have account?<button class="form_btn-login">Login</button>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <h1 class="secondary-heading">Packages</h1>
+    <section class="shop">
+      <div class="card__container">
+        <div class="card">
+          <div><img src="./Images/cloth-1.jpg" alt="" /></div>
+          <div class="item-type">
+            <h2 class="item_name">Monthly</h2>
+            <ul class="item_desc">
+              <li>-kfjds</li>
+              <li>-kfjds</li>
+              <li>350 Birr</li>
+            </ul>
+          </div>
+          <!-- <button class="buy_btn">Buy</button> -->
+        </div>
+        <div class="card">
+          <div><img src="./Images/cloth-1.jpg" alt="" /></div>
+          <div class="item-type">
+            <h2 class="item_name">Family</h2>
+            <ul class="item_desc">
+              <li>-kfjds</li>
+              <li>-kfjds</li>
+              <li>350 Birr</li>
+            </ul>
+          </div>
+          <!-- <button class="buy_btn">Buy</button> -->
+        </div>
+        <div class="card">
+          <div><img src="./Images/cloth-1.jpg" alt="" /></div>
+          <div class="item-type">
+            <h2 class="item_name">Yearly</h2>
+            <ul class="item_desc">
+              <li>-kfjds</li>
+              <li>-kfjds</li>
+              <li>350 Birr</li>
+            </ul>
+          </div>
+          <!-- <button class="buy_btn">Buy</button> -->
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <img
+            width="300px"
+            src="./Images/logo.png"
+            alt="logo of alpha fittness"
+          />
+        </div>
+        <div class="address">
+          <address>
+            <p class="footer-heading">Address</p>
+            <ul class="footer-nav">
+              <li>123 Main St.</li>
+              <li>Anytown, Ethiopia 12345.</li>
+              <li>Somewhere Street</li>
+              <li>Nice Building 2nd Floor</li>
+            </ul>
+          </address>
+        </div>
+        <div class="contact">
+          <p class="footer-heading">Contact</p>
+          <ul class="footer-nav">
+            <li>
+              <a class="footer-link" href="mailto:sampleEmail@gmail.com"
+                >sampleEmail@gmail.com</a
+              >
+            </li>
+            <li>
+              <a class="footer-link" href="tel:+25123456789">+25123456789</a>
+            </li>
+            <li>
+              <a class="footer-link" href="./About.html#address">Address</a>
+            </li>
+          </ul>
+        </div>
+        <div class="quick links">
+          <p class="footer-heading">Quick links</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="./About.html#faq">FAQ's</a></li>
+            <li>
+              <a class="footer-link" href="./About.html#about"> About Us</a>
+            </li>
+            <li>
+              <a class="footer-link" href="./Contact.html#contact">
+                Contact Us</a
+              >
+            </li>
+            <li>
+              <a class="footer-link" href="./About.html#address"> Address</a>
+            </li>
+            <li>
+              <a class="footer-link" href="./About.html#address"> Account</a>
+            </li>
+          </ul>
+        </div>
+        <div class="social-medias">
+          <a
+            class="footer-link"
+            href="https://www.facebook.com/profile.php?id=100087596493768"
+            ><img
+              class="footer-link--social"
+              src="./Icons/facebook.png"
+              alt="logo for the facebook social media platform"
+          /></a>
+          <a
+            class="footer-link"
+            href="https://www.instagram.com/alphafitnessby_henny/"
+            ><img
+              class="footer-link--social"
+              src="./Icons/instagram.png"
+              alt="logo for the instagram social media platform"
+          /></a>
+          <a
+            class="footer-link"
+            href="https://twitter.com/search?q=alpha%20fitness%20by%20henny&src=typed_query"
+            ><img
+              class="footer-link--social"
+              src="./Icons/twitter.png"
+              alt="logo for the twitter social media platform"
+          /></a>
+          <a
+            class="footer-link"
+            href="https://www.youtube.com/@alphafitnessbyhenny"
+            ><img
+              class="footer-link--social"
+              src="./Icons/youtube.png"
+              alt="logo for the youtube social media platform"
+          /></a>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright &copy; 2023</p>
+        <p>Alrights Reserved</p>
+        <p>Alpha Fitness Ltd.</p>
+      </div>
+    </footer>
+  </body>
+  <script src="./Script/scriptAccount.js"></script>
+</html>

@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="this is about page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/f98f45f35a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./Styles/style.css" />
+    <title>About</title>
+  </head>
+  <body>
+    <header class="header">
+      <img
+        width="300px"
+        src="./Images/logo.png"
+        class="logo-imgae"
+        alt="logo of alpha fittness"
+      />
+      <nav class="head-nav">
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <ul class="head-nav-list">
+          <li><a class="nav-anchor" href="./index.html">Home</a></li>
+          <li>
+            <a class="nav-anchor" href="./Events.html">Events</a>
+          </li>
+          <li><a class="nav-anchor" href="./Schedule.html">Schedule</a></li>
+          <li><a class="nav-anchor" href="./Contact.html">Contact</a></li>
+          <li>
+            <a class="nav-anchor nav--active" href="./About.html">About</a>
+          </li>
+          <li>
+            <a class="nav-anchor" href="./Account.html">Account</a>
+          </li>
+          <li>
+            <a class="nav-anchor nav--main-focus" href="./Shop.html">Shop</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <img
+      width="100%"
+      src="./Images/hero-11.jpg"
+      id="head-image"
+      alt="picture gym equipment"
+    />
+    <main class="about__us">
+      <section class="about_us__section">
+        <div class="about__us--desc">
+          <div class="about__us__text">
+            <h1 class="primary-heading">About Us</h1>
+            <p class="about__us__text__desc">
+              Welcome to alpha fitness! <br />
+              <br />
+              We are a state-of-the-art fitness facility that offers a wide
+              range of services to help you achieve your fitness goals. <br />
+              Our mission is to provide a welcoming and inclusive environment
+              where people of all fitness levels can come to improve their
+              physical and mental well-being. <br />
+              <br />
+              We have a team of experienced and certified personal trainers who
+              are dedicated to helping you reach your potential. They will work
+              with you to create a personalized workout plan that is tailored to
+              your specific needs and goals. Our trainers are passionate about
+              fitness and are always on hand to offer guidance and support
+              throughout your journey. <br /><br />
+              Our gym is equipped with the latest and best fitness equipment,
+              including cardio machines, weight training equipment, and free
+              weights. We also offer a variety of group fitness classes such as
+              yoga, Pilates, Zumba, and more. <br />
+              <br />
+              At alpha fitness, we believe that fitness is not just about the
+              physical, but also the mental. That's why we also offer a variety
+              of wellness services such as massage therapy and nutrition
+              counseling. Whether you're a beginner or a seasoned pro, we have
+              something for everyone. Come and experience the XYZ gym difference
+              today
+            </p>
+          </div>
+          <iframe
+            id="address"
+            title="map"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1376.4590343966554!2d38.764829071731725!3d9.033668236584605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2set!4v1672144809813!5m2!1sen!2set"
+            width="400"
+            height="400"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+      <video
+        class="about_us__section"
+        id="sample__vid"
+        autoplay
+        muted
+        loop
+        controls
+      >
+        <source src="./Videos/gym-about.mp4" type="video/mp4" />
+        <track
+          label="English"
+          kind="subtitles"
+          srclang="en"
+          src="./Videos/caption.vtt"
+          default
+        />
+      </video>
+      <h2 class="secondary-heading meet">Meet Our Team</h2>
+      <section class="about_us__section meet_our_team">
+        <div class="trainer__box">
+          <img
+            class="trainer__img"
+            width="150px"
+            src="./Images/trainer-1.jpg"
+            alt="photo of Kizz, one of the trainer's at alpha fittness"
+          />
+          <p>~Kizz Daniel~</p>
+          <p>
+            "Exercise is a celebration of what your body can do, not a
+            punishment for what you ate."
+          </p>
+        </div>
+        <div class="trainer__box">
+          <img
+            class="trainer__img"
+            width="150px"
+            src="./Images/trainer-2.jpg"
+            alt="photo of Katrina, one of the trainer's at alpha fittness"
+          />
+          <p>~Katrina Seid~</p>
+          <p>
+            "Exercise is a celebration of what your body can do, not a
+            punishment for what you ate."
+          </p>
+        </div>
+        <div class="trainer__box">
+          <img
+            class="trainer__img"
+            width="150px"
+            src="./Images/trainer-3.jpg"
+            alt="photo of Ayra, one of the trainer's at alpha fittness"
+          />
+          <p>~Ayra Starr~</p>
+          <p>
+            "Exercise is a celebration of what your body can do, not a
+            punishment for what you ate."
+          </p>
+        </div>
+        <div class="trainer__box">
+          <img
+            class="trainer__img"
+            width="150px"
+            src="./Images/trainer-4.jpg"
+            alt="photo of Matt, one of the trainer's at alpha fittness"
+          />
+          <p>~Nomcebo Zikode~</p>
+          <p>
+            "Exercise is a celebration of what your body can do, not a
+            punishment for what you ate."
+          </p>
+        </div>
+      </section>
+      <section id="faq" class="about_us__section">
+        <h2 class="primary-heading">FAQ's</h2>
+        <div class="accordion">
+          <div class="accordion__content">
+            <p class="accordion__header">What are the hours of operation?</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="icon"
+              data-content="1"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+
+            <div class="accordion__content-text">
+              Our gym is open 24 hours a day, 7 days a week for your
+              convenience. This means members can access the gym at any time,
+              whether it's early morning, late at night, or on weekends.
+            </div>
+          </div>
+          <div class="accordion__content">
+            <p class="accordion__header">
+              Are there any age or fitness level requirements to join?
+            </p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="icon"
+              data-content="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+
+            <div class="accordion__content-text open">
+              No, we welcome members of all ages and fitness levels. Our gym
+              caters to a diverse group of individuals, from beginners to
+              experienced fitness enthusiasts.
+            </div>
+          </div>
+          <div class="accordion__content">
+            <p class="accordion__header">
+              Are there any discounts available for students or military
+              personnel?
+            </p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="icon"
+              data-content="3"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+
+            <div class="accordion__content-text">
+              Yes, we offer a discounted rate for students and military
+              personnel with valid ID. This is our way of showing our
+              appreciation for their hard work and dedication.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <img
+            width="300px"
+            src="./Images/logo.png"
+            alt="logo of alpha fittness"
+          />
+        </div>
+        <div class="address">
+          <address>
+            <p class="footer-heading">Address</p>
+            <ul class="footer-nav">
+              <li>123 Main St.</li>
+              <li>Anytown, Ethiopia 12345.</li>
+              <li>Somewhere Street</li>
+              <li>Nice Building 2nd Floor</li>
+            </ul>
+          </address>
+        </div>
+        <div class="contact">
+          <p class="footer-heading">Contact</p>
+          <ul class="footer-nav">
+            <li>
+              <a class="footer-link" href="mailto:sampleEmail@gmail.com"
+                >sampleEmail@gmail.com</a
+              >
+            </li>
+            <li>
+              <a class="footer-link" href="tel:+25123456789">+25123456789</a>
+            </li>
+            <li>
+              <a class="footer-link" href="./About.html#address">Address</a>
+            </li>
+          </ul>
+        </div>
+        <div class="quick links">
+          <p class="footer-heading">Quick links</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="./About.html#faq">FAQ's</a></li>
+            <li>
+              <a class="footer-link" href="./About.html#about"> About Us</a>
+            </li>
+            <li>
+              <a class="footer-link" href="./Contact.html#contact">
+                Contact Us</a
+              >
+            </li>
+            <li>
+              <a class="footer-link" href="./About.html#address"> Address</a>
+            </li>
+            <li>
+              <a class="footer-link" href="./About.html#address"> Account</a>
+            </li>
+          </ul>
+        </div>
+        <div class="social-medias">
+          <a
+            class="footer-link"
+            href="https://www.facebook.com/profile.php?id=100087596493768"
+            ><img
+              class="footer-link--social"
+              src="./Icons/facebook.png"
+              alt="logo for the facebook social media platform"
+          /></a>
+          <a
+            class="footer-link"
+            href="https://www.instagram.com/alphafitnessby_henny/"
+            ><img
+              class="footer-link--social"
+              src="./Icons/instagram.png"
+              alt="logo for the instagram social media platform"
+          /></a>
+          <a
+            class="footer-link"
+            href="https://twitter.com/search?q=alpha%20fitness%20by%20henny&src=typed_query"
+            ><img
+              class="footer-link--social"
+              src="./Icons/twitter.png"
+              alt="logo for the twitter social media platform"
+          /></a>
+          <a
+            class="footer-link"
+            href="https://www.youtube.com/@alphafitnessbyhenny"
+            ><img
+              class="footer-link--social"
+              src="./Icons/youtube.png"
+              alt="logo for the youtube social media platform"
+          /></a>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright &copy; 2023</p>
+        <p>Alrights Reserved</p>
+        <p>Alpha Fitness Ltd.</p>
+      </div>
+    </footer>
+    <script src="./Script/script.js"></script>
+  </body>
+</html>
